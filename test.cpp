@@ -1,10 +1,12 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
+int main()
+{
+int samples;
+cin>>samples;
+while(samples--)
+{
 
-int main(){
-    string a;
-    cin>>a;
-    cout<<"Kello :)"<<endl;
-
-    return 0;
+}
+return 0;
 }
