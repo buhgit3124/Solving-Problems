@@ -14,6 +14,7 @@ int main()
       long int record=-1;
 
       
+      if(first!=0 || second !=0){
       if(first>second){
         rem=first%second;
         if (rem!=0 ){
@@ -35,6 +36,7 @@ int main()
       }
       else{
         cout<<"2"<<endl;
+      }
       }
     }
 
