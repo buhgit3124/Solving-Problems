@@ -3,3 +3,13 @@ test.cpp
 .cph
 .vscode
 file.cpp
+
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
