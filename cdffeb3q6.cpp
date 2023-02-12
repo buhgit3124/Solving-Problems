@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int digit_sum(int n){
-    int sum=0;
-    int m=0;
+long long int digit_sum(long long int n){
+    long long int sum=0;
+    long long int m=0;
     while(n>0)    
 {    
 m=n%10;    
@@ -15,32 +15,32 @@ return sum;
 
 int main()
 {
-    int samples;
+    long long int samples;
     cin >> samples;
     while (samples--)
     {
-        int n, q;
+        long long int n, q;
         cin >> n >> q;
-        int arr[n];
-        for (int i = 0; i < n; i++)
+        long long int arr[n];
+        for (long long int i = 0; i < n; i++)
         {
             cin >> arr[i];
         }
         while (q--)
         {
-            int query;
+            long long int query;
             cin>>query;
             if(query==1){
-                int l,r;
+                long long int l,r;
                 cin>>l>>r;
-                for (int i = l-1; i < r; i++)
+                for (long long int i = l-1; i < r; i++)
                 {
                    arr[i]=digit_sum(arr[i]);
                 }
                 
             }
             else{
-                int out;
+                long long int out;
                 cin>>out;
                 cout<<arr[out-1]<<endl;
             }
