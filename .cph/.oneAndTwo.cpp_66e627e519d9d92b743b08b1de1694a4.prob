@@ -1,0 +1,1 @@
+{"name":"Local: oneAndTwo","url":"/home/shsrra/CODE/Solving-Problems/oneAndTwo.cpp","tests":[{"id":1676903579087,"input":"3\n6\n2 2 1 2 1 2\n3\n1 2 1\n4\n1 1 1 1","output":"2\n-1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/shsrra/CODE/Solving-Problems/oneAndTwo.cpp","group":"local","local":true}
