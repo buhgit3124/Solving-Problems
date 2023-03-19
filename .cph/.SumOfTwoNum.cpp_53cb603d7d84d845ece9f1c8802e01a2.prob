@@ -1,0 +1,1 @@
+{"name":"Local: SumOfTwoNum","url":"/home/shsrra/CODE/Solving-Problems/SumOfTwoNum.cpp","tests":[{"id":1676953797720,"input":"8\n1\n161\n67\n1206\n19\n199\n1999\n19999","output":"1 0\n67 94\n60 7\n1138 68\n14 5\n144 55"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/shsrra/CODE/Solving-Problems/SumOfTwoNum.cpp","group":"local","local":true}
